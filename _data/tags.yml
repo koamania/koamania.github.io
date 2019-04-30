@@ -1,0 +1,11 @@
+server:
+  name: server
+
+algorithm:
+  name: algorithm
+
+DevOps:
+  name: DevOps
+
+programming:
+  name: programming
