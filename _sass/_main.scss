@@ -187,10 +187,11 @@ ul.topbar {
 	}
 }
 .post_content {
+	font-family: monospace;
 	position: relative;
 	width: 98.5%;
 	min-height: 600px;
-	max-height: 600px;
+	max-height: 900px;
 	padding: 2px;
 	margin: 0 auto;
 	overflow-y: scroll;
@@ -207,15 +208,15 @@ ul.topbar {
 	}
 
 	h1 {
-		font-size: 20px;
+		font-size: 30px;
 		font-weight: 700;
-		margin: 50px 0 10px 0;
+		margin: 50px 0 15px 0;
 	}
 
 	h2 {
-		font-size: 18px;
+		font-size: 24px;
 		font-weight: 700;
-		margin: 25px 0 5px 0;
+		margin: 25px 0 10px 0;
 	}
 
 	em {
@@ -225,7 +226,8 @@ ul.topbar {
 	blockquote {
 		padding: 0 0 0 15px;
 		margin: 15px 5px;
-		border-left: 8px solid #000000;
+		border-left: 8px solid #008082;
+		color: #888888
 	}
 
 	strong {
