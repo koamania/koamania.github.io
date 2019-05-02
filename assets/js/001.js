@@ -4,6 +4,7 @@
 var max = document.getElementsByClassName("btn")[1];
 var min = document.getElementsByClassName("btn")[2];
 var pageTitle = document.getElementsByClassName("post_title")[0];
+var postContent = document.getElementsByClassName('post_content')[0];
 var isMaxized = false;
 
 function maximize (event) {
@@ -44,12 +45,14 @@ function minimize (event) {
 	}
 }
 
-max.addEventListener('click', maximize, false);
-min.addEventListener('click', minimize, false);
-pageTitle.addEventListener('dblclick', function(e) {
-	if (isMaxized) {
-		minimize(e);
-	} else {
-		maximize(e);
-	}
-}, false);
+if (postContent) {
+	max.addEventListener('click', maximize, false);
+	min.addEventListener('click', minimize, false);
+	pageTitle.addEventListener('dblclick', function(e) {
+		if (isMaxized) {
+			minimize(e);
+		} else {
+			maximize(e);
+		}
+	}, false);
+}

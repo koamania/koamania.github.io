@@ -4,8 +4,8 @@ server:
 algorithm:
   name: algorithm
 
-DevOps:
-  name: DevOps
+devops:
+  name: devops
 
 programming:
   name: programming
