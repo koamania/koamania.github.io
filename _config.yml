@@ -1,25 +1,51 @@
-permalink: /:year:month:day/:title
-url: #Your url here
-baseurl: /
+# Basic
+name:               "Koamania"
+description:        "창조적이며 생산적이고 싶은 개발자의 블로그"
 
-# variables
-name: 창조적이고 생산적이고 싶은 개발자의 블로그
-description: 창조적이고 생산적이고 싶은 개발자의 블로그
-google_verification: null
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+url:                "//blog.creductive.ga"
+author:             "koamania"
+twitter:
+  username:         "koamania"
+#facebook:
+#  app_id:           1234
+#    publisher:      1234
 
+# URL
+baseurl:            ""
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title/
 
-# File management
-include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+# Markdown
+markdown:           kramdown
+
+# Navigation
+nav:
+  - name:           "About"
+    remote:         false
+    localpath:      "about"
+  - name:           "Github"
+    remote:         true
+    href:           "//github.com/koamania"
 
 # Sass
 sass:
-  style: :compressed
-  sass_dir: _sass
+  style:            :compressed
 
-# Markdown
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    disable : true
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-seo-tag
