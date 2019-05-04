@@ -2,7 +2,7 @@
 title:        "Introduction to algorithms"
 # jekyll-seo-tag
 description:  "알고리즘 개요"
-author:       "creductive"
+author:       "koamania"
 ---
 # Introduction to algorithms
 

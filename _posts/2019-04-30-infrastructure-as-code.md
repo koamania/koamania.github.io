@@ -1,7 +1,8 @@
 ---
-layout: default
-title: "코드로 인프라 관리하기"
-tags: devops
+title:        "Infra as code"
+# jekyll-seo-tag
+description:  "코드로 인프라 관리하기"
+author:       "koamania"
 ---
 # Infra as code(IaC)란?
 
