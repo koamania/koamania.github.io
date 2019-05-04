@@ -1,5 +1,5 @@
 ---
-title:        "리액티브 프로그래밍이란 - rxjava를 활용한 리액티브 프로그래밍"
+title:        "RxJava를 활용한 리액티브 프로그래밍 - 개요"
 # jekyll-seo-tag
 description:  "RxJava를 활용한 리액티브 프로그래밍 - 개요"
 author:       "koamania"
