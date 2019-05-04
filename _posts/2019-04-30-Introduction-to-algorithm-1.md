@@ -1,7 +1,8 @@
 ---
-layout: default
-title: "Introduction to algorithms #1 기초"
-tags: algorithm
+title:        "Introduction to algorithms"
+# jekyll-seo-tag
+description:  "알고리즘 개요"
+author:       "creductive"
 ---
 # Introduction to algorithms
 
