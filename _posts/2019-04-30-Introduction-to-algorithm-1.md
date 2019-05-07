@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: false
-title: "Introduction to algorithms"
+title: "Introduction to algorithms 개요"
 date: 2019-04-30
 image: '/assets/img/'
 description: "알고리즘 개요"
 main-class: dev
 color:
-tags: algorithm
-categories:
+tags: algorithm books
+categories: "Introduction-to-algorithms"
 introduction: "Introduction to algorithms 정리"
 ---
 # Introduction to algorithms

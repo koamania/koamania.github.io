@@ -1,17 +1,17 @@
 ---
 layout: post
 comments: false
-title: "Infra as code"
+title: "Infrastructure as code란?"
 date: 2019-04-30
 image: '/assets/img/'
 description: "코드로 인프라 관리하기"
-main-class: dev
+main-class: infra
 color:
-tags: infra
-categories:
+tags: infra books
+categories: "Infrastructure-as-Code"
 introduction: "코드로 인프라 관리하기"
 ---
-# Infra as code(IaC)란?
+# Infrastructure as code(IaC)란?
 
 -   인프라 자동화 방법
 -   시스템과 구성을 프로비저닝하고 일관되고 반복 가능한 절차를 코드로서 관리하는 방법
