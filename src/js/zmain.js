@@ -23,12 +23,18 @@
   };
 
   bs.dothis.on('click', function() {
+    oepn_search();
+  });
+
+  function oepn_search() {
     $('.search-wrapper').toggleClass('active');
     bs.searchform.toggleClass('active');
     bs.searchform.find('input').focus();
+    bs.searchform.find('input').val('');
+    bs.searchform.find('.search-list').empty();
     bs.canvas.toggleClass('search-overlay');
     $('.search-field').simpleJekyllSearch();
-  });
+  }
 
   function close_search() {
     $('.search-wrapper').toggleClass('active');
@@ -42,6 +48,10 @@
   document.addEventListener('keyup', function(e){
       if(e.keyCode == 27 && $('.search-overlay').length) {
           close_search();
+      }
+
+      if(e.keyCode == 191 && !$('.search-overlay').length) {
+        oepn_search();
       }
   });
   if (document.getElementsByClassName('home').length >=1 ) {
