@@ -1,8 +1,15 @@
 ---
-title:        "Infra as code"
-# jekyll-seo-tag
-description:  "코드로 인프라 관리하기"
-author:       "koamania"
+layout: post
+comments: false
+title: "Infra as code"
+date: 2019-04-30
+image: '/assets/img/'
+description: "코드로 인프라 관리하기"
+main-class: dev
+color:
+tags: infra
+categories:
+introduction: "코드로 인프라 관리하기"
 ---
 # Infra as code(IaC)란?
 

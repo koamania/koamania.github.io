@@ -1,9 +1,17 @@
 ---
-title:        "RxJava를 활용한 리액티브 프로그래밍 - 개요"
-# jekyll-seo-tag
-description:  "RxJava를 활용한 리액티브 프로그래밍 - 개요"
-author:       "koamania"
+layout: post
+comments: false
+title: "RxJava를 활용한 리액티브 프로그래밍 - 개요"
+date: 2019-05-04
+image: '/assets/img/'
+description: "RxJava를 활용한 리액티브 프로그래밍 - 개요"
+main-class: dev
+color:
+tags: rxjava programming reactive
+categories:
+introduction:
 ---
+
 # 명령형 프로그래밍과 리액티브 프로그래밍
 ## 명령형 프로그래밍
 프로그래머가 작성한 코드가 정해진 절차에 따라 순서대로 실행되는 형식이다.

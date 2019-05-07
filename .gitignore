@@ -1,5 +1,7 @@
-.sass-cache/
+.DS_Store
+_site
+node_modules
+package-lock.json
+_drafts
 .vscode
-.sass-cache/
 .jekyll-metadata
-_site/

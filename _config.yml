@@ -1,51 +1,40 @@
-# Basic
-name:               "Koamania"
-description:        "창조적이며 생산적이고 싶은 개발자의 블로그"
+# Site settings
+title: Creductive Web developer
+description: 창조적이고 생산적이고 싶은 개발자의 블로그
+baseurl: ""
+url: "https://blog.creductive.com"
 
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//blog.creductive.ga"
-author:             "koamania"
-twitter:
-  username:         "koamania"
-#facebook:
-#  app_id:           1234
-#    publisher:      1234
+# User settings
+username: koamania
+user_description: Web devloper
+email: koamania2@gmail.com
+twitter_username: 
+github_username:  koamania
 
-# URL
-baseurl:            ""
-#baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title/
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
 
-# Markdown
-markdown:           kramdown
 
-# Navigation
-nav:
-  - name:           "About"
-    remote:         false
-    localpath:      "about"
-  - name:           "Github"
-    remote:         true
-    href:           "//github.com/koamania"
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
 
-# Sass
-sass:
-  style:            :compressed
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
 
-# Scopes
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-
-gems:
-  - jekyll-seo-tag
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
