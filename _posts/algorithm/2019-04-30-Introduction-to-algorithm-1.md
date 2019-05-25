@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title: "Introduction to algorithms 개요"
+title: "#1 Introduction to algorithms 개요"
 date: 2019-04-30
 image: '/assets/img/'
 description: "알고리즘 개요"
@@ -17,7 +17,7 @@ introduction: "Introduction to algorithms 정리"
 1300 페이지에 달하는 어마어마한 분량과 엄청난 무게의 압박때문에 쉽사리 손대지도, 막상 손댄다고해도 완독하기 쉽지 않은 책으로도 유명하다.
 
 하지만 명서라고 꼽히는 이유가 있는 만큼 이번 기회에 나름대로 쉽게 정리하면서 읽어 볼 생각이다.  
-언어 공부도 할 겸 예제 소스는 [Go](https://golang.org/)언어로 작성할 생각이다.  
+언어 공부도 할 겸 예제 소스는 Python언어로 작성할 생각이다.  
 ~~영 안맞으면 언제 언어가 바뀔지는 모름...~~
 
 # 알고리즘의 역할
