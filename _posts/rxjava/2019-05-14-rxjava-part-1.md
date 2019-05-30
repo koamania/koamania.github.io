@@ -6,7 +6,6 @@ date: 2019-05-14
 image: '/assets/img/'
 description:
 main-class: dev
-color: "RxJava 설정 및 Hello World"
 tags: rxjava reactive java books
 categories: "RxJava"
 ---
@@ -44,7 +43,6 @@ public class FirstExample {
  - Observer들이 구독하는 대상이고 Observer에게 데이터를 발행해주는 역할을 한다고 생각하고 넘어가셔도 됩니다(앞으로 계속해서 Observable에 대한 내용을 설명할 예정입니다.)
 
 ### just()
-![just 함수](/assets/img/posts/rxjava/part2/just.png)
  - Observable의 선언 방식으로 변경없이 발행된 데이터를 그대로 구독자에게 전달한다고 생각하시면 됩니다.(자세한 내용은 나중에 올라올 포스팅을 참고해주세요)
  - 위 예제에서는 데이터 소스에서 'Hello'와 'RxJava 2!!'의 2개의 데이터를 발행하게 됩니다.
  - Generic에 명시된 타입에 맞는 데이터를 인자로 넣을 수 있습니다.
