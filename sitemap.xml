@@ -1,0 +1,68 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.creductive.ga/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/series/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/tags/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/about/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/category/dev/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/rxjava-part-2/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/Insertion-sort/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/rxjava-part-1/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/reactive-programming-intro/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/Introduction-to-algorithm-1/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.creductive.ga/infrastructure-as-code/</loc>
+  <lastmod>2019-05-30T15:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
