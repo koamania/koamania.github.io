@@ -1,15 +1,15 @@
 ---
 layout: post
 comments: false
-title: "RxJava를 활용한 리액티브 프로그래밍 - 개요"
+title: "#0 RxJava를 활용한 리액티브 프로그래밍"
 date: 2019-05-04
 image: '/assets/img/'
 description: "RxJava를 활용한 리액티브 프로그래밍 - 개요"
 main-class: dev
 color:
-tags: rxjava reactive java books
+tags: rxjava reactive java 책
 categories: "RxJava"
-introduction:
+introduction: "RxJava에 대한 개요"
 ---
 
 # 명령형 프로그래밍과 리액티브 프로그래밍

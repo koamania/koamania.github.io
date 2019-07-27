@@ -5,9 +5,9 @@ title: "#2 삽입정렬"
 date: 2019-05-24
 image: '/assets/img/'
 description: "삽입정렬이란?"
-main-class: dev
+main-class: algorithm
 color:
-tags: 'algorithm books sort'
+tags: 알고리즘 책 정렬
 categories: 'Introduction-to-algorithms'
 introduction: 'Introduction to altorithm - 삽입정렬'
 ---

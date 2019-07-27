@@ -1,13 +1,14 @@
 ---
 layout: post
 comments: false
-title: "RxJava를 활용한 리액티브 프로그래밍 - Obaservable 처음 만들기"
+title: "#2 RxJava를 활용한 리액티브 프로그래밍"
 date: 2019-05-30
 image: '/assets/img/'
-description:
+description: "Obaservable에 대한 이해와 기초적인 사용 방법"
 main-class: dev
-tags: rxjava reactive java books
+tags: rxjava reactive java 책
 categories: "RxJava"
+introduction: "Obaservable 처음 만들기"
 ---
 
 # Observable 처음 만들기

@@ -1,13 +1,13 @@
 ---
 layout: post
 comments: false
-title: "Infrastructure as code란?"
+title: "#0 Infrastructure as code란?"
 date: 2019-04-30
 image: '/assets/img/'
 description: "코드로 인프라 관리하기"
 main-class: infra
 color:
-tags: infra books
+tags: 인프라 책
 categories: "Infrastructure-as-Code"
 introduction: "코드로 인프라 관리하기"
 ---

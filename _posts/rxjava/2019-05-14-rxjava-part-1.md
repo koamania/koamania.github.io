@@ -1,13 +1,14 @@
 ---
 layout: post
 comments: false
-title: "RxJava를 활용한 리액티브 프로그래밍 - 시작하기"
+title: "#1 RxJava를 활용한 리액티브 프로그래밍"
 date: 2019-05-14
 image: '/assets/img/'
-description:
+description: "RxJava 시작하기"
 main-class: dev
-tags: rxjava reactive java books
+tags: rxjava reactive java 책
 categories: "RxJava"
+introduction: "RxJava 시작하기"
 ---
 >프로젝트 구성 및 maven 혹은 gradle에 대한 설정은 과감히 생략하도록 한다.  
 이미 다 알거라도 생각함.
