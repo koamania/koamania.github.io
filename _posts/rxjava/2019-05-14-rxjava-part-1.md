@@ -6,7 +6,7 @@ date: 2019-05-14
 image: '/assets/img/'
 description: "RxJava 시작하기"
 main-class: dev
-tags: rxjava reactive java 책
+tags: rxjava reactive java
 categories: "RxJava"
 introduction: "RxJava 시작하기"
 ---

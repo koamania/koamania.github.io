@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "삽입정렬이란?"
 main-class: algorithm
 color:
-tags: 알고리즘 책 정렬
+tags: 알고리즘 정렬
 categories: 'Introduction-to-algorithms'
 introduction: 'Introduction to altorithm - 삽입정렬'
 ---

@@ -6,7 +6,7 @@ date: 2019-08-07
 image: '/assets/img/'
 description: "12요소 방법론(The Twelve-factor Application)"
 main-class: infra
-tags: spring java MSA 인프라 책
+tags: spring java MSA 인프라
 categories: "MSA"
 introduction: "12요소 방법론(The Twelve-factor Application)"
 ---

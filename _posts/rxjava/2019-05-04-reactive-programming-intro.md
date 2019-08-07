@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "RxJava를 활용한 리액티브 프로그래밍 - 개요"
 main-class: dev
 color:
-tags: rxjava reactive java 책
+tags: rxjava reactive java
 categories: "RxJava"
 introduction: "RxJava에 대한 개요"
 ---
