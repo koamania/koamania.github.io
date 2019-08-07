@@ -1,4 +1,8 @@
-- 마크다운 문법 연습
-- jekyll 사용법 익히기
-- 포트폴리오
-- 등등등등
+# 개요
+![개요](/assets/img/rody.gif)
+
+# 목적
+개인 블로그를 위한 저장소
+
+# 접속 방법
+[https://creductive.ga](https://creductive.ga)
