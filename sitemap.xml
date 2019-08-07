@@ -3,11 +3,15 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for page in site.pages %}
+    <!-- {% for page in site.pages %}
         <url>
             <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
         </url>
-    {% endfor %}
+    {% endfor %} -->
+        <url>
+            <loc>https://creductive.ga</loc>
+            <lastmod>{{ site.time | date: '%Y-%m-%d' }}T00:00:00+09:00</lastmod>
+        </url>
     {% for post in site.posts %}
         <url>
             <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
