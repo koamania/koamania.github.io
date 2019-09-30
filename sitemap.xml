@@ -9,7 +9,7 @@ layout: null
         </url>
     {% endfor %} -->
         <url>
-            <loc>https://creductive.ga</loc>
+            <loc>https://koamania.github.io</loc>
             <lastmod>{{ site.time | date: '%Y-%m-%d' }}T00:00:00+09:00</lastmod>
         </url>
     {% for post in site.posts %}

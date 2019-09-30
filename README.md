@@ -5,4 +5,4 @@
 개인 블로그를 위한 저장소
 
 # 접속 방법
-[https://creductive.ga](https://creductive.ga)
+[https://koamania.github.io](https://koamania.github.io)
