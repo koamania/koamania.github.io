@@ -26,5 +26,6 @@ introduction: "JPA에서의 상속 관계 매핑 전략"
 * 데이터를 등록할 INSERT SQL이 두 번 실행된다.
 
 ### 관련 설정
-__@Inheritance(strategy = InheritanceType.JOINDED)__  
+***@Inheritance(strategy = InheritanceType.JOINDED)***  
 상속 매핑은 부모 클래스에 @Inheritance를 사용해야 함. 매핑 전략을 지정할 수 있는데 조인 전략을 사용하므로 JOINED를 지정
+
