@@ -5,4 +5,4 @@ package-lock.json
 _drafts
 .vscode
 .jekyll-metadata
-.idea/
+.jekyll-cache
