@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: false
-title: "#2 JPA 프로그래밍 - 상속 관계"
-date: 2020-06-06
+title: "#3 JPA 프로그래밍 - @MappedSuperclass"
+date: 2020-06-07
 image: '/assets/img/'
-description: "JPA에서의 상속 관계 매핑 전략"
+description: "공통 속성을 매핑하기 위한 @MappedSuperclass"
 main-class: dev
 tags: jpa java
 categories: "JPA"
-introduction: "JPA에서의 상속 관계 매핑 전략"
+introduction: "공통 속성을 매핑하기 위한 @MappedSuperclass"
 ---
 
 # @MappedSuperclass
