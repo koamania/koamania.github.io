@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: false
-title: "#4 JPA 실무 - 요구사항 분석 및 구현2"
-date: 2020-06-15
+title: "#4 JPA 실무 - 서비스 및 repository 구현"
+date: 2020-06-20
 image: '/assets/img/'
-description: "요구 사항 분석, 기능 나열 및 구현2"
+description: "서비스 로직 구현과 repository 구현"
 main-class: dev
 tags: jpa java
 categories: "JPA"
-introduction: "요구 사항 분석, 기능 나열 및 구현2"
+introduction: "서비스 로직 구현과 repository 구현"
 ---
 ## 생성 메서드
 - 주문이라는 엔티티를 생성할 때 복잡하게 얽힌 엔티티를 연관관계로 세팅해주어야한다(Member, Delivery 등). 핵심이 되는 엔티티(Order)에 생성하는 로직을 만들어두면 일관성있는 동작을 강제할 수 있고 복잡한 비즈니스 로직을 한 눈에 알 수 있다.
