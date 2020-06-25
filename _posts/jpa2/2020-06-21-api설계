@@ -1,0 +1,28 @@
+---
+layout: post
+comments: false
+title: "#8 JPA 실무 - API 설계"
+date: 2020-06-21
+image: '/assets/img/'
+description: "API 설계"
+main-class: dev
+tags: jpa java
+categories: "JPA"
+introduction: "API 설계"
+---
+# Template renderding controller와 api
+- 예외 처리 및 응답에 대해서 공통 처리하는 부분들이 꽤 많기 때문에 분리하는게 더 좋음
+
+# API에서 Entity를 RequestBody로?
+- Validation check 등의 프레젠테이션 로직이 Entity에 포함되게되면 유연성이 떨어지게 된다.
+- presentation 계층의 비즈니스 로직이 엔티티로 침범하게되어 엔티티 -> 외부로 의존관계가 성립하면서 양방향 의존이 되어 버림
+- 더 큰 문제는 Entity 스펙이 변경될 경우 API가 동작이 오류 날 수 있음
+- API를 만들때는 항상 API에 맞는 DTO를 만들어서 이를 엔티티로 변환하는 방식으로 할 것.
+
+#  update할 경우 return 타입
+- command와 query를 엄격하게 구분하자
+- command 메소드에서 반환값으로 엔티티를 주게 될 경우 이게 command인지 query인지 애매해지긴 함
+- 차라리 controller에서 findOne해서 한번 더 찾아서 응답해주는게 유지보수성에서 더 좋음
+
+# response를 list로?
+- json array 형태로 응답해버리기떄문에 스펙을 추가할 수 없이 딱딱해져 버림

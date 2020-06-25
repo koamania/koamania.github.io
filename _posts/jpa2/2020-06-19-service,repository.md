@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "#5 JPA 실무 - 서비스 및 repository 구현"
-date: 2020-06-20
+date: 2020-06-19
 image: '/assets/img/'
 description: "서비스 로직 구현과 repository 구현"
 main-class: dev
