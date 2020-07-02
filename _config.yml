@@ -2,7 +2,7 @@
 title: 창의적이고 생산적이고 싶은 개발자
 owner: "koamania"
 url: "https://koamania.github.io"
-baseurl: "/"
+baseurl: ""
 permalink: /:title/
 description: ""
 markdown: kramdown
