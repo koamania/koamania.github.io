@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "12요소 방법론(The Twelve-factor Application)"
 main-class: infra
 tags: spring java MSA 인프라
-categories: "MSA"
+category: "MSA"
 introduction: "12요소 방법론(The Twelve-factor Application)"
 ---
 # 12요소 방법론

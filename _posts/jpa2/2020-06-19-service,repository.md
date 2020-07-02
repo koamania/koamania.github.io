@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "서비스 로직 구현과 repository 구현"
 main-class: dev
 tags: jpa java
-categories: "JPA"
+category: "JPA"
 introduction: "서비스 로직 구현과 repository 구현"
 ---
 # 동적 쿼리

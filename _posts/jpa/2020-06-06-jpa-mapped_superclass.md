@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "공통 속성을 매핑하기 위한 @MappedSuperclass"
 main-class: dev
 tags: jpa java
-categories: "JPA"
+category: "JPA"
 introduction: "공통 속성을 매핑하기 위한 @MappedSuperclass"
 ---
 

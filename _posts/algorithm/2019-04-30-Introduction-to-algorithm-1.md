@@ -8,8 +8,9 @@ description: "책 소개 및 개요"
 main-class: algorithm
 color:
 tags: 알고리즘
-categories: "Introduction-to-algorithms"
+category: "Introduction-to-algorithms"
 introduction: "책 소개 및 개요"
+encrypted_text: true
 ---
 # Introduction to algorithms
 

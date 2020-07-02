@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "API 고급 - Collection 조회 최적화"
 main-class: dev
 tags: jpa java
-categories: "JPA"
+category: "JPA"
 introduction: "API 고급 - Collection 조회 최적화"
 ---
 # Collection 조회 성능 최적화하는 단계적 방법

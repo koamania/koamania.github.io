@@ -1,17 +1,14 @@
-<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138866636-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-138866636-3');
-</script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-5480228412406077",
-    enable_page_level_ads: true
-  });
-</script>
+<div class="footer">
+    <nav class="nav_bar">
+        <ul>
+            <li class="copyright">
+                © 2019
+            </li>
+            {% if site.statement %}
+            <li>
+                {{ site.statement }}
+            </li>
+            {% endif %}
+    </nav>
+    </ul>
+</div>

@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "RxJava 시작하기"
 main-class: dev
 tags: rxjava reactive java
-categories: "RxJava"
+category: "RxJava"
 introduction: "RxJava 시작하기"
 ---
 >프로젝트 구성 및 maven 혹은 gradle에 대한 설정은 과감히 생략하도록 한다.  

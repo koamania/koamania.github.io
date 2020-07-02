@@ -8,7 +8,7 @@ description: "삽입정렬이란?"
 main-class: algorithm
 color:
 tags: 알고리즘 정렬
-categories: 'Introduction-to-algorithms'
+category: 'Introduction-to-algorithms'
 introduction: 'Introduction to altorithm - 삽입정렬'
 ---
 # 카드 정렬 문제

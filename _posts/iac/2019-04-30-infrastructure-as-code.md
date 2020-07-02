@@ -8,7 +8,7 @@ description: "코드로 인프라 관리하기"
 main-class: infra
 color:
 tags: MSA 인프라 책
-categories: "MSA"
+category: "MSA"
 introduction: "코드로 인프라 관리하기"
 ---
 # Infrastructure as code(IaC)란?

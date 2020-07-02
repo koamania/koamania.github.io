@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "JPA에서의 상속 관계 매핑 전략"
 main-class: dev
 tags: jpa java
-categories: "JPA"
+category: "JPA"
 introduction: "JPA에서의 상속 관계 매핑 전략"
 ---
 

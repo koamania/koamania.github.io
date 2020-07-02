@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "Obaservable에 대한 이해와 기초적인 사용 방법"
 main-class: dev
 tags: rxjava reactive java
-categories: "RxJava"
+category: "RxJava"
 introduction: "Obaservable 처음 만들기"
 ---
 

@@ -7,7 +7,7 @@ image: '/assets/img/'
 description: "API 설계"
 main-class: dev
 tags: jpa java
-categories: "JPA"
+category: "JPA"
 introduction: "API 설계"
 ---
 # Template renderding controller와 api
