@@ -122,7 +122,6 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
             }
           }
           .access_token {
-            resize: none;
             float: right;
             display: inline-flexbox;
             margin: 0px 5px;
@@ -341,7 +340,7 @@ body {
     font: inherit;
     vertical-align: baseline;
   }
-  textarea {
+  input, textarea {
     margin: 0;
     padding: 0;
     border: 0.5px solid rgba($color-primary, 0.9);

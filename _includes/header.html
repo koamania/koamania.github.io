@@ -71,7 +71,7 @@
                             {% endif %}
                         </i>
                     </a>
-                    <textarea class="access_token" cols="8" id="acs_tkn" rows="1"></textarea>
+                    <input class="access_token" id="acs_tkn" />
                 {% endif %}
             </li>
             <!-- right header -->
@@ -136,7 +136,7 @@
     }
     </script>
     <!-- scroll page -->
-        <script>
+    <script>
     function scroll_percentage(mtpler) {
         document
         .getElementById("div_atcl")
@@ -206,7 +206,7 @@
       try {
         var txt = sjcl.json.decrypt(pwd, ct);
       } catch (e) {
-        alert("잘못된 토큰입니다!");
+        console.error("%cInvalid Token. Decryption Failed.","font-size: 20px");
         return;
       }
       elem_clct[acc].innerHTML = txt;
@@ -220,5 +220,15 @@
       document.getElementById("acs_btn").style.display = "none";
     }
   }
+
+  (() => {
+    const tokenElem = document.getElementById('acs_tkn');
+    tokenElem.addEventListener('keydown', event => {
+        const code = event.key;
+        if(code == 'Enter') { //Enter keycode
+            apply_token();
+        }
+    })
+  })()
 </script>
 {% endif %}
