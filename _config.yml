@@ -29,7 +29,7 @@ avatar_source: github
 github_username: koamania
 
 # Build settings
-theme: jekyll-dash
+remote_theme: bitbrain/jekyll-dash
 
 plugins:
   - liquid-md5
